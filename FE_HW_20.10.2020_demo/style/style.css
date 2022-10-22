@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    background-color: white;  
+}
+
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 70px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li+li{
+    padding-left: 20px;
+}
+
+nav .midle_nav a{
+    text-decoration: none;
+    color: black;
+    transition: box-shadow 0.5s;
+    padding: 5px;
+    border-radius: 20%;
+    color: #222222;
+}
+
+nav ul a:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+.left a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #005FA3;
+}
+
+.left img{
+    margin: -10px 30px;
+}
+
+button{
+    width: 150px; 
+    height: 40px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#what_we_do{
+    background: rgba(235, 235, 235, 1);
+    height: 70vh;
+    padding: 50px 160px;
+    
+}
+ .wrapper h7{
+    font-size: 0.9rem;
+    color: #BDBDBD;
+}
+
+#what_we_do div>*{
+    padding: 20px 0;
+}
+
+.wrapper h3{
+    font-size: 2.0rem; 
+}
+
+#pictures_hover .card-conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+#pictures_hover .card{
+    width: 360px;
+    height: 350px;
+    background-image: url('../media/Rectangle\ 2.png');
+    background-size: cover;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#pictures_hover .info{    
+    color: rgb(9, 7, 7);
+    position: absolute;
+    bottom: 0;
+    padding: 250px 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 
+    transform 1s cubic-bezier(0.41,-0.17, 0.72, 1.44);
+    opacity: 1.0;
+}
+ 
+#pictures_hover .card:hover .info{
+    position: absolute;
+    transition: 
+    transform 1s cubic-bezier(0.41,-0.17, 0.72, 1.44);
+    opacity: 0.0;
+    
+}
+#pictures_hover .wrapper{
+    padding: 0 70px;
+}
+
+.text{
+    color: white;
+}
+
+.pictures2 {
+    height: 350px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pictures2 img{
+    margin: 10px 35px;
+    transition: box-shadow 0.5s;
+}
+
+
+.pictures2 img:hover{
+    cursor: pointer;
+    display: block;
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+
+
+
+
+
+
